@@ -1,0 +1,16 @@
+import pandas
+df = pandas.read_csv("users.csv")
+
+print("Usernames column values:")
+print(df["Usernames"].values)
+print()
+print("Username and Password of the second row:")
+print(df.iloc[1]) 
+print()
+sorted_usernames = df.sort_values("Usernames")
+print("Data sorted by Usernames (ascending):")
+print(sorted_usernames)
+print()
+sorted_passwords = df.sort_values("Passwords", ascending=False)
+print("Data sorted by Passwords (descending):")
+print(sorted_passwords)
