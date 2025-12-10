@@ -1,0 +1,9 @@
+--Activity 3
+-- Query 1 - Retrieve records from salesman_id and salesman_city column
+SELECT salesman_id, salesman_city FROM salesman;
+
+-- Query 2 - Retrieve records of salesman for Paris
+SELECT * FROM salesman WHERE salesman_city='Paris';
+
+-- Query 3 - Retrieve records salesman_id and commission of Paul Adam
+SELECT salesman_id, commission FROM salesman WHERE salesman_name='Paul Adam';
