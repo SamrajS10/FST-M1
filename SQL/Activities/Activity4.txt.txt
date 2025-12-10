@@ -1,0 +1,9 @@
+--Activity 4
+--adding new column into the table
+ALTER TABLE salesman ADD grade int;
+
+--sets the value for new column
+UPDATE salesman SET grade=100;
+
+--retrieve all records from table
+SELECT * FROM salesman;
