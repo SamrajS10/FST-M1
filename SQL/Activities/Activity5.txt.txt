@@ -1,0 +1,9 @@
+--Activity 5
+--updating the grade for rome city name record
+UPDATE salesman SET grade=200 WHERE salesman_city='Rome';
+
+--updating the grade for James Hoog name record
+UPDATE salesman SET grade=300 WHERE salesman_name='James Hoog';
+
+--updating the salesman name
+UPDATE salesman SET salesman_name='Pierre' WHERE salesman_name='McLyon';
