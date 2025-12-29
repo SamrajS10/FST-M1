@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LMS Test Suite">
+    <test name="LMS Activities Test">
+        <classes>
+            <class name="Activity1_VerifyTitle.Activity1_VerifyTitle"/>
+            <class name="Activity2_VerifyHeading.Activity2_VerifyHeading"/>
+            <class name="Activity3_VerifyFirstInfoBoxTitle.Activity3_VerifyFirstInfoBoxTitle"/>
+            <class name="Activity4_VerifySecondPopularCourse.Activity4_VerifySecondPopularCourse"/>
+            <class name="Activity5_NavigateToMyAccount.Activity5_NavigateToMyAccount"/>
+			<class name="Activity6_Login.Activity6_Login"/>     
+			<class name="Activity7_CountNoOfCourses.Activity7_CountNoOfCourses"/>
+			<class name="Activity8_ContactAdmin.Activity8_ContactAdmin"/>
+			<class name="Activity9_CompleteLesson.Activity9_CompleteLesson"/>
+        </classes>
+    </test>
+</suite>
